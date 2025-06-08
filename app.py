@@ -49,7 +49,7 @@ with col2:
     # Configuration
     # -----------------------------
     DATA_DIR = "ghg_csv"  # folder with files like Lidcombe_YYYYMMDD.csv
-    GASES = ["CH4", "CO2", "N2O", "NH3"]
+    GASES = ["CH4", "CO2", "H2O", "N2O", "NH3"]
     SITES = ["Lidcombe", "Stockton"]
 
     # -----------------------------
