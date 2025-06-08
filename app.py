@@ -72,7 +72,19 @@ with col2:
         st.stop()
 
     # Extract dates from filenames
-    available_dates = [datetime.strptime(os.path.basename(f).split("_")[1].split(".")[0], "%Y%m%d").date() for f in available_files]
+    # available_dates = [datetime.strptime(os.path.basename(f).split("_")[1].split(".")[0], "%Y%m%d").date() for f in available_files]
+
+    # Extract all available dates from the contents of all files
+    available_dates = set()
+    for f in available_files:
+        try:
+            df = pd.read_csv(f, usecols=["DATE", "TIME"])
+            df["datetime"] = pd.to_datetime(df["DATE"] + " " + df["TIME"], dayfirst=True, errors='coerce')
+            available_dates.update(df["datetime"].dt.date.dropna().unique())
+        except Exception as e:
+            st.warning(f"Failed to parse dates in {f}: {e}")
+
+    available_dates = sorted(available_dates)
 
     # Sidebar: Date selector
     selected_date = st.sidebar.date_input(
@@ -170,7 +182,19 @@ with col2:
 
     # Labels and formatting
     ax.set_xlabel("Time")
-    ax.set_ylabel(f"{selected_gas} concentration")
+    #ax.set_ylabel(f"{selected_gas} concentration")
+    # Define gas units
+    GAS_UNITS = {
+        "CH4": "ppm",
+        "CO2": "ppm",
+        "N2O": "ppm",
+        "NH3": "ppb",
+        "H2O": "%",
+    }
+
+    unit = GAS_UNITS.get(selected_gas, "")
+    ax.set_ylabel(f"{selected_gas} ({unit})")
+
     ax.grid(True)
     ax.legend()
     fig.autofmt_xdate(rotation=30)
