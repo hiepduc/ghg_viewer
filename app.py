@@ -13,6 +13,10 @@ import glob
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import requests
+import urllib.parse
+
+import matplotlib.dates as mdates
 
 # Define available sites and coordinates
 sites = {
@@ -42,6 +46,9 @@ with col1:
         map_html = f.read()
 
     components.html(map_html, height=400, width=250)
+
+    image_path = "Keeling_curve_2023.PNG"
+    st.image(image_path, caption="Keeling curve 2023", use_container_width=True)
 
 with col2:
 
@@ -214,5 +221,185 @@ with col2:
     if view_mode == "Full Month":
         daily_avg_csv = daily_avg.rename(columns={selected_gas: f"{selected_gas}_daily_avg"})
         st.download_button("Download Daily Averages", data=daily_avg_csv.to_csv(index=False), file_name=f"{selected_site}_{selected_gas}_daily_avg_{selected_month}.csv")
+
+    # ------------------------
+    # Sidebar: Parameter & Date Selection
+    # ------------------------
+    st.sidebar.markdown("### API Aquisnet Parameter & Date Selection")
+
+    # Parameter and date selection
+    parameter = st.sidebar.selectbox("Select Parameter", ["CH4", "CO2", "NH3", "N2O", "NO2", "NO"])
+    start_date = st.sidebar.date_input("Start Date", datetime(2025, 1, 1))
+    end_date = st.sidebar.date_input("End Date", datetime(2025, 3, 31))
+
+    if start_date > end_date:
+        st.sidebar.error("End Date must be after Start Date")
+        st.stop()
+
+    # API configuration
+    API_URL = "https://data.airquality.nsw.gov.au/api/Data/get_Observations"
+    HEADERS = {'content-Type': 'application/json', 'accept': 'application/json'}
+
+    # Helper function to check data existence
+    def parameter_exists_api(site_id, parameter_id, start_date, end_date):
+        payload = {
+            "Site_Id": site_id,
+            "ParameterCode": parameter_id,
+            "StartDate": start_date.strftime("%Y-%m-%d"),
+            "EndDate": end_date.strftime("%Y-%m-%d"),
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        }
+        try:
+            response = requests.post(API_URL, headers=HEADERS, json=payload, timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                return len(data) > 0
+        except Exception as e:
+            st.warning(f"API error for site ID {site_id}: {e}")
+        return False
+
+    # Load available sites and parameter IDs
+    def load_sites_and_params():
+        sites_url = "https://data.airquality.nsw.gov.au/api/Data/get_SiteDetails"
+        params_url = "https://data.airquality.nsw.gov.au/api/Data/get_ParameterDetails"
+
+        sites = requests.get(sites_url, headers=HEADERS).json()
+        params = requests.get(params_url, headers=HEADERS).json()
+
+        # Map: Site name -> Site ID
+        site_map = {site["SiteName"]: site["Site_Id"] for site in sites}
+
+        # Map: ParameterCode -> first valid ParameterId (prefer hourly average)
+        param_map = {}
+        for param in params:
+            code = param.get("ParameterCode")
+            freq = param.get("Frequency", "").lower()
+            if code and code not in param_map:
+                if "hour" in freq:  # prefer hourly
+                    param_map[code] = param.get("ParameterCode")
+
+        return site_map, param_map
+
+
+    site_map, param_map = load_sites_and_params()
+
+    # Get the parameter ID from name
+    parameter_id = param_map.get(parameter)
+    if parameter_id is None:
+        st.error(f"Parameter '{parameter}' not found in API.")
+        st.stop()
+
+    # Check which sites have the parameter data
+    available_sites = [
+        site_name for site_name, site_id in site_map.items()
+        if parameter_exists_api(site_id, parameter_id, start_date, end_date)
+    ]
+
+    if not available_sites:
+        st.warning(f"No data found for {parameter} between {start_date} and {end_date} at any site.")
+        st.stop()
+
+    # Let user select from available sites
+    selected_site = st.sidebar.selectbox("Select Site", available_sites)
+
+    # Get the selected site ID
+    selected_site_id = site_map[selected_site]
+
+    st.write(f"Sending Site_Id (type {type(selected_site_id)}): {selected_site_id}")
+
+    # Prepare the API request payload with correct fields
+    payload = {
+        "Site_Id": selected_site_id,
+        "ParameterCode": parameter_id,
+        "StartDate": start_date.strftime("%Y-%m-%d"),
+        "EndDate": end_date.strftime("%Y-%m-%d"),
+        "Category": "Averages",
+        "SubCategory": "Hourly",
+        "Frequency": "Hourly average"
+    }
+
+    st.write(f"Selected site ID: {selected_site_id}, Parameter ID: {parameter_id}")
+    st.subheader("Payload sent to API:")
+    st.json(payload)
+
+    # Fetch data from the API
+    try:
+        response = requests.post(API_URL, headers=HEADERS, json=payload, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+    except Exception as e:
+        st.error(f"Failed to fetch data: {e}")
+        st.stop()
+
+    #st.json(data[:5])
+    # Convert data to DataFrame
+
+    #site_matches = sum(1 for rec in data if int(rec.get("Site_Id", -1)) == selected_site_id)
+    #param_matches = sum(1 for rec in data if str(rec.get("Parameter", {}).get("ParameterCode", "")).upper() == parameter_id.upper())
+    #full_matches = sum(1 for rec in data if int(rec.get("Site_Id", -1)) == selected_site_id and str(rec.get("Parameter", {}).get("ParameterCode", "")).upper() == parameter_id.upper())
+
+    #st.write(f"Site matches: {site_matches}, Param matches: {param_matches}, Site+Param matches: {full_matches}")
+
+    records = []
+    units = None  # store the units
+
+    for rec in data:
+        # Convert everything to correct type before comparison
+        rec_site_id = int(rec.get("Site_Id", -1))
+        rec_param_code = str(rec.get("Parameter", {}).get("ParameterCode", "")).upper()
+
+        if rec_site_id == selected_site_id and rec_param_code == parameter_id.upper():
+            date_str = rec["Date"]
+            hour = rec["Hour"]
+            dt = datetime.strptime(date_str, "%Y-%m-%d") + timedelta(hours=hour)
+            value = rec["Value"]
+
+            if value is not None:
+                if units is None:
+                    units = rec["Parameter"].get("Units", "")
+                records.append({"datetime": dt, "value": value})
+
+    st.write(f"Total records returned by API: {len(data)}")
+
+    #for rec in data[:5]:
+    #    st.write(f"rec['Site_Id']: {rec['Site_Id']} ({type(rec['Site_Id'])})")
+    #    st.write(f"rec['Parameter']['ParameterCode']: {rec['Parameter']['ParameterCode']} ({type(rec['Parameter']['ParameterCode'])})")
+    #    st.write("---")
+
+    st.write(f"selected_site_id: {selected_site_id} ({type(selected_site_id)})")
+    st.write(f"parameter_id: {parameter_id} ({type(parameter_id)})")
+
+    df = pd.DataFrame(records)
+
+    st.write("Preview of retrieved data:")
+    st.dataframe(df.head())
+
+    # Assuming df contains 'datetime' and 'value' columns
+    fig, ax = plt.subplots(figsize=(12, 5))
+
+    ax.plot(df["datetime"], df["value"], marker="o", linestyle="-", label=parameter)
+
+    # Set axis titles
+    ax.set_title(f"{parameter} Time Series at {selected_site}", fontsize=14)
+    ax.set_xlabel("Datetime")
+    ax.set_ylabel(f"{parameter} ({units})")
+    #ax.set_ylabel(f"{parameter} ({rec['Parameter']['Units']})")
+    ax.grid(True)
+    ax.legend()
+
+    # Format x-axis to show hourly ticks or auto-adjust
+    ax.xaxis.set_major_locator(mdates.AutoDateLocator())
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d\n%H:%M'))
+
+    # Rotate x-tick labels for readability
+    plt.xticks(rotation=45)
+
+    # Adjust layout to prevent label cutoff
+    plt.tight_layout()
+
+    # Show in Streamlit
+    st.pyplot(fig)
 
 
