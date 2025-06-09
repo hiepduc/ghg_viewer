@@ -32,7 +32,7 @@ with col1:
     st.markdown("### NSW Piccarro Site Locations")
 
     # Create the Folium map
-    m = folium.Map(location=[-33.5, 147.0], zoom_start=6)
+    m = folium.Map(location=[-33.5, 151.0], zoom_start=6)
     for name, coords in sites.items():
         folium.Marker(location=coords, popup=name).add_to(m)
 
