@@ -4,4 +4,3 @@ matplotlib
 folium
 streamlit-folium
 windrose
-time
