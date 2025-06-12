@@ -17,6 +17,7 @@ import requests
 import urllib.parse
 
 import matplotlib.dates as mdates
+import time
 
 # Define available sites and coordinates
 sites = {
@@ -369,7 +370,7 @@ with col2:
             "Frequency": ["Hourly average"]
         }
         try:
-            response = requests.post(API_URL, headers=HEADERS, json=payload, timeout=10)
+            response = requests.post(API_URL, headers=HEADERS, json=payload, timeout=20)
             if response.status_code == 200:
                 data = response.json()
                 return len(data) > 0
@@ -443,9 +444,14 @@ with col2:
 
     # Fetch data from the API
     try:
-        response = requests.post(API_URL, headers=HEADERS, json=payload, timeout=10)
-        response.raise_for_status()
-        data = response.json()
+        with st.spinner("Please wait, fetching data..."):
+            # Simulate a slow API call
+            time.sleep(5)  # Replace this with your real API request
+
+            response = requests.post(API_URL, headers=HEADERS, json=payload, timeout=30)
+            response.raise_for_status()
+            data = response.json()
+        st.success("Data loaded successfully!")
     except Exception as e:
         st.error(f"Failed to fetch data: {e}")
         st.stop()
