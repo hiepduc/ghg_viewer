@@ -175,7 +175,17 @@ with col2:
 
     # Set index and resample
     df.set_index("datetime", inplace=True)
-    df = df.resample("H").mean().reset_index()
+    #df = df.resample("H").mean().reset_index()
+
+    # Separate numeric and non-numeric columns
+    numeric_df = df.select_dtypes(include=["number"])
+
+    # Resample numeric columns only
+    numeric_df = numeric_df.resample("H").mean()
+
+    # Reset index to bring datetime back as a column
+    numeric_df = numeric_df.reset_index()
+    df = numeric_df
 
     # Process selected gas
     if selected_gas in df.columns:
