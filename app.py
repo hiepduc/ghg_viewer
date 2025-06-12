@@ -82,14 +82,31 @@ with col2:
     # available_dates = [datetime.strptime(os.path.basename(f).split("_")[1].split(".")[0], "%Y%m%d").date() for f in available_files]
 
     # Extract all available dates from the contents of all files
+
     available_dates = set()
     for f in available_files:
         try:
-            df = pd.read_csv(f, usecols=["DATE", "TIME"])
-            df["datetime"] = pd.to_datetime(df["DATE"] + " " + df["TIME"], dayfirst=True, errors='coerce')
+            if "Stockton" in os.path.basename(f):
+                df = pd.read_csv(f, usecols=["Date Time"], dayfirst=True)
+                df["datetime"] = pd.to_datetime(df["Date Time"], dayfirst=True, errors='coerce')
+                df.rename(columns={
+                    'CH4_Pic_0': 'CH4',
+                    'CO2_Pic_0': 'CO2',
+                    'N2O_Pic_0': 'N2O',
+                    'NH3_Pic_0': 'NH3',
+                    'H2O_Pic_0': 'H2O',
+                    'WSP_0': 'Wind_Speed',
+                    'WDR_0': 'Wind_Direction'
+                }, inplace=True)
+            else:
+                df = pd.read_csv(f, usecols=["DATE", "TIME"])
+                df["datetime"] = pd.to_datetime(df["DATE"] + " " + df["TIME"], dayfirst=True, errors='coerce')
+
             available_dates.update(df["datetime"].dt.date.dropna().unique())
+
         except Exception as e:
             st.warning(f"Failed to parse dates in {f}: {e}")
+
 
     available_dates = sorted(available_dates)
 
@@ -117,19 +134,64 @@ with col2:
         st.warning(f"No data found for {selected_date.strftime('%B %Y')}")
         st.stop()
 
-    df = pd.read_csv(monthly_file)
-    # Rename columns to remove units and match expected gas names
-    df.columns = df.columns.str.replace(r"\s*\(.*\)", "", regex=True).str.strip()
 
-    try:
-        df["datetime"] = pd.to_datetime(df["DATE"] + " " + df["TIME"], dayfirst=True)
-        df[selected_gas] = pd.to_numeric(df[selected_gas], errors="coerce")
-    except Exception as e:
-        st.error(f"Error processing file: {e}")
+    df = pd.read_csv(monthly_file, dayfirst=True)
+    #st.write("Original columns:", df.columns.tolist())  # Debug output
+
+    # Detect and harmonize file format BEFORE column cleaning
+    if "Date Time" in df.columns:
+        # Stockton format
+        df.rename(columns={
+            'CH4_Pic_0': 'CH4',
+            'CO2_Pic_0': 'CO2',
+            'N2O_Pic_0': 'N2O',
+            'NH3_Pic_0': 'NH3',
+            'H2O_Pic_0': 'H2O',
+            'WSP_0': 'Wind_Speed',
+            'WDR_0': 'Wind_Direction'
+        }, inplace=True)
+
+        df["datetime"] = pd.to_datetime(df["Date Time"], dayfirst=True, errors='coerce')
+        if df["datetime"].isnull().any():
+            st.warning("Some datetime parsing errors detected in Stockton data.")
+
+        # Set datetime index and resample to hourly mean
+        df = df.dropna(subset=["datetime"])
+        #df = df.set_index("datetime")
+        #df = df.set_index("datetime", inplace=True)
+        #df = df.resample('H').mean().reset_index()
+
+    elif "DATE" in df.columns and "TIME" in df.columns:
+        # Lidcombe format
+        df["datetime"] = pd.to_datetime(df["DATE"] + " " + df["TIME"], dayfirst=True, errors='coerce')
+
+    else:
+        st.error("Unknown file format. Required columns not found.")
         st.stop()
 
+    # Now clean column names
+    df.columns = df.columns.str.replace(r"\s*\(.*\)", "", regex=True).str.strip()
+    #st.write("Cleaned columns:", df.columns.tolist())  # Debug output
+
+    # Set index and resample
+    df.set_index("datetime", inplace=True)
+    df = df.resample("H").mean().reset_index()
+
+    # Process selected gas
+    if selected_gas in df.columns:
+        df[selected_gas] = pd.to_numeric(df[selected_gas], errors="coerce")
+    else:
+        st.error(f"Selected gas column '{selected_gas}' not found in file.")
+        st.stop()
+
+    # Filter by single day if required
     if view_mode == "Single Day":
         df = df[df["datetime"].dt.date == selected_date]
+
+    # Rename columns to remove units and match expected gas names
+    # Clean column names: remove units (if any)
+    df.columns = df.columns.str.replace(r"\s*\(.*\)", "", regex=True).str.strip()
+
    
     # Summary statistics
     if not df[selected_gas].isnull().all():
@@ -145,6 +207,15 @@ with col2:
     else:
         st.info("No valid data to calculate statistics.")
  
+    # Check if selected gas exists
+    if selected_gas not in df.columns:
+        st.warning(f"{selected_gas} not found in the data.")
+        st.stop()
+
+    # Drop NA datetime or selected_gas
+    df = df.dropna(subset=["datetime", selected_gas])
+    df = df.sort_values("datetime")
+
     # Plotting
     st.title("GHG Time Series Viewer")
 
@@ -154,14 +225,40 @@ with col2:
         st.subheader(f"{selected_gas} at {selected_site} for {selected_date.strftime('%B %Y')}")
 
     import matplotlib.dates as mdates
+    from windrose import WindroseAxes
 
     if selected_gas not in df.columns:
         st.warning(f"{selected_gas} not found in the data.")
         st.stop()
-    # Plot configuration
+
+    #st.write("Available columns:", df.columns.tolist())
+    st.write("Selected site value:", selected_site)
+
+    st.sidebar.write(f"🔍 selected_site = {repr(selected_site)}")
+
+    if selected_site == "Stockton"  and "Wind_Speed" in df.columns and "Wind_Direction" in df.columns:
+        st.sidebar.title("Options")
+        if st.sidebar.checkbox("Show Wind Rose"):
+           st.markdown("### Wind Rose")
+           wind_df = df.dropna(subset=["Wind_Speed", "Wind_Direction"])
+           if not wind_df.empty:
+               fig = plt.figure(figsize=(6, 6))
+               ax = WindroseAxes.from_ax(fig=fig)
+               ax.bar(
+                   wind_df["Wind_Direction"],
+                   wind_df["Wind_Speed"],
+                   normed=True,
+                   opening=0.8,
+                   edgecolor='white'
+               )
+               ax.set_legend()
+               st.pyplot(fig)
+        else:
+            st.info("No wind data available to generate wind rose.")
+
+    # Plotting setup
     fig, ax = plt.subplots(figsize=(10, 4))
 
-    # Prepare daily average if needed
     if view_mode == "Full Month":
         df["date"] = df["datetime"].dt.date
         daily_avg = df.groupby("date")[selected_gas].mean().reset_index()
@@ -173,16 +270,24 @@ with col2:
             ax.bar(daily_avg["date"], daily_avg[selected_gas], width=0.6, alpha=0.3, label="Daily Avg")
 
         ax.set_title(f"{selected_gas} for {selected_date.strftime('%B %Y')}")
+
+        ax.xaxis.set_major_locator(mdates.DayLocator(interval=3))  # spacing ticks every 3 days
         ax.xaxis.set_major_formatter(mdates.DateFormatter('%d %b'))
 
     else:  # Single Day
+        # Filter data to selected date only
+        day_data = df[df["datetime"].dt.date == selected_date]
+        if day_data.empty:
+            st.warning("No data available for the selected day.")
+            st.stop()
+
         if plot_mode in ["Line Only", "Combined"]:
-            ax.plot(df["datetime"], df[selected_gas], marker="o", linestyle="-", label="Hourly")
+            ax.plot(day_data["datetime"], day_data[selected_gas], marker="o", linestyle="-", label="Hourly")
 
         if plot_mode == "Bar Only":
-            day_avg = df[selected_gas].mean()
-            bar_time = datetime.combine(selected_date, datetime.min.time())  # Convert date to datetime
-            ax.bar([bar_time], [day_avg], width=0.03, alpha=0.5, label="Daily Avg")
+            avg_val = day_data[selected_gas].mean()
+            bar_time = datetime.combine(selected_date, datetime.min.time())
+            ax.bar([bar_time], [avg_val], width=0.03, alpha=0.5, label="Daily Avg")
 
         ax.set_title(f"{selected_gas} on {selected_date.strftime('%Y-%m-%d')}")
         ax.xaxis.set_major_formatter(mdates.DateFormatter('%H:%M'))
@@ -230,7 +335,7 @@ with col2:
     # Parameter and date selection
     parameter = st.sidebar.selectbox("Select Parameter", ["CH4", "CO2", "NH3", "N2O", "NO2", "NO"])
     start_date = st.sidebar.date_input("Start Date", datetime(2025, 1, 1))
-    end_date = st.sidebar.date_input("End Date", datetime(2025, 3, 31))
+    end_date = st.sidebar.date_input("End Date", datetime(2025, 1, 7))
 
     if start_date > end_date:
         st.sidebar.error("End Date must be after Start Date")
@@ -238,18 +343,20 @@ with col2:
 
     # API configuration
     API_URL = "https://data.airquality.nsw.gov.au/api/Data/get_Observations"
-    HEADERS = {'content-Type': 'application/json', 'accept': 'application/json'}
+    HEADERS = {'Content-Type': 'application/json', 'accept': 'application/json'}
 
     # Helper function to check data existence
     def parameter_exists_api(site_id, parameter_id, start_date, end_date):
         payload = {
-            "Site_Id": site_id,
-            "ParameterCode": parameter_id,
+            #"Sites": [site_id],
+            #"Parameters": [parameter_id],
+            "Sites": site_id,    # should be inside [] but deliberately make it wrong to get default resutls
+            "Parameters": parameter_id,    # should be inside [] but deliberately make it wrong to get default resutls
             "StartDate": start_date.strftime("%Y-%m-%d"),
             "EndDate": end_date.strftime("%Y-%m-%d"),
-            "Category": "Averages",
-            "SubCategory": "Hourly",
-            "Frequency": "Hourly average"
+            "Categories": ["Averages"],
+            "SubCategories": ["Hourly"],
+            "Frequency": ["Hourly average"]
         }
         try:
             response = requests.post(API_URL, headers=HEADERS, json=payload, timeout=10)
@@ -307,22 +414,22 @@ with col2:
     # Get the selected site ID
     selected_site_id = site_map[selected_site]
 
-    st.write(f"Sending Site_Id (type {type(selected_site_id)}): {selected_site_id}")
+    #st.write(f"Sending Site_Id (type {type(selected_site_id)}): {selected_site_id}")
 
     # Prepare the API request payload with correct fields
     payload = {
-        "Site_Id": selected_site_id,
-        "ParameterCode": parameter_id,
+        "Sites": [selected_site_id],
+        "Parameters": [parameter_id],
         "StartDate": start_date.strftime("%Y-%m-%d"),
         "EndDate": end_date.strftime("%Y-%m-%d"),
-        "Category": "Averages",
-        "SubCategory": "Hourly",
-        "Frequency": "Hourly average"
+        "Categories": ["Averages"],
+        "SubCategories": ["Hourly"],
+        "Frequency": ["Hourly average"]
     }
 
-    st.write(f"Selected site ID: {selected_site_id}, Parameter ID: {parameter_id}")
-    st.subheader("Payload sent to API:")
-    st.json(payload)
+    #st.write(f"Selected site ID: {selected_site_id}, Parameter ID: {parameter_id}")
+    #st.subheader("Payload sent to API:")
+    #st.json(payload)
 
     # Fetch data from the API
     try:
@@ -332,15 +439,6 @@ with col2:
     except Exception as e:
         st.error(f"Failed to fetch data: {e}")
         st.stop()
-
-    #st.json(data[:5])
-    # Convert data to DataFrame
-
-    #site_matches = sum(1 for rec in data if int(rec.get("Site_Id", -1)) == selected_site_id)
-    #param_matches = sum(1 for rec in data if str(rec.get("Parameter", {}).get("ParameterCode", "")).upper() == parameter_id.upper())
-    #full_matches = sum(1 for rec in data if int(rec.get("Site_Id", -1)) == selected_site_id and str(rec.get("Parameter", {}).get("ParameterCode", "")).upper() == parameter_id.upper())
-
-    #st.write(f"Site matches: {site_matches}, Param matches: {param_matches}, Site+Param matches: {full_matches}")
 
     records = []
     units = None  # store the units
@@ -361,20 +459,14 @@ with col2:
                     units = rec["Parameter"].get("Units", "")
                 records.append({"datetime": dt, "value": value})
 
-    st.write(f"Total records returned by API: {len(data)}")
-
-    #for rec in data[:5]:
-    #    st.write(f"rec['Site_Id']: {rec['Site_Id']} ({type(rec['Site_Id'])})")
-    #    st.write(f"rec['Parameter']['ParameterCode']: {rec['Parameter']['ParameterCode']} ({type(rec['Parameter']['ParameterCode'])})")
-    #    st.write("---")
-
+    #st.write(f"Total records returned by API: {len(data)}")
     st.write(f"selected_site_id: {selected_site_id} ({type(selected_site_id)})")
     st.write(f"parameter_id: {parameter_id} ({type(parameter_id)})")
 
     df = pd.DataFrame(records)
 
-    st.write("Preview of retrieved data:")
-    st.dataframe(df.head())
+    #st.write("Preview of retrieved data:")
+    #st.dataframe(df.head())
 
     # Assuming df contains 'datetime' and 'value' columns
     fig, ax = plt.subplots(figsize=(12, 5))

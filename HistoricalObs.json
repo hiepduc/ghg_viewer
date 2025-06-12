@@ -1,0 +1,4322 @@
+[
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 1,
+        "HourDescription": "12 am - 1 am",
+        "Value": 0.010469,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 2,
+        "HourDescription": "1 am - 2 am",
+        "Value": null,
+        "AirQualityCategory": null,
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 3,
+        "HourDescription": "2 am - 3 am",
+        "Value": 0.06774,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 4,
+        "HourDescription": "3 am - 4 am",
+        "Value": 0.089662,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 5,
+        "HourDescription": "4 am - 5 am",
+        "Value": 0.200456,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 6,
+        "HourDescription": "5 am - 6 am",
+        "Value": 0.307892,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 7,
+        "HourDescription": "6 am - 7 am",
+        "Value": 0.600182,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 8,
+        "HourDescription": "7 am - 8 am",
+        "Value": 1.021732,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 9,
+        "HourDescription": "8 am - 9 am",
+        "Value": 1.030126,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 10,
+        "HourDescription": "9 am - 10 am",
+        "Value": 0.859096,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 11,
+        "HourDescription": "10 am - 11 am",
+        "Value": 0.917653,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 12,
+        "HourDescription": "11 am - 12 pm",
+        "Value": 0.684315,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 13,
+        "HourDescription": "12 pm - 1 pm",
+        "Value": 0.628227,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 14,
+        "HourDescription": "1 pm - 2 pm",
+        "Value": 0.58774,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 15,
+        "HourDescription": "2 pm - 3 pm",
+        "Value": 0.675131,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 16,
+        "HourDescription": "3 pm - 4 pm",
+        "Value": 0.516248,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 17,
+        "HourDescription": "4 pm - 5 pm",
+        "Value": 0.329123,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 18,
+        "HourDescription": "5 pm - 6 pm",
+        "Value": 0.343836,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 19,
+        "HourDescription": "6 pm - 7 pm",
+        "Value": 0.259408,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 20,
+        "HourDescription": "7 pm - 8 pm",
+        "Value": 0.278268,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 21,
+        "HourDescription": "8 pm - 9 pm",
+        "Value": 0.21349,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 22,
+        "HourDescription": "9 pm - 10 pm",
+        "Value": 0.090057,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 23,
+        "HourDescription": "10 pm - 11 pm",
+        "Value": 0.002666,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-05",
+        "Hour": 24,
+        "HourDescription": "11 pm - 12 am",
+        "Value": -0.033376,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 1,
+        "HourDescription": "12 am - 1 am",
+        "Value": 0.011652,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 2,
+        "HourDescription": "1 am - 2 am",
+        "Value": null,
+        "AirQualityCategory": null,
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 3,
+        "HourDescription": "2 am - 3 am",
+        "Value": 0.11636,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 4,
+        "HourDescription": "3 am - 4 am",
+        "Value": 0.147585,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 5,
+        "HourDescription": "4 am - 5 am",
+        "Value": 0.32944,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 6,
+        "HourDescription": "5 am - 6 am",
+        "Value": 0.502949,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 7,
+        "HourDescription": "6 am - 7 am",
+        "Value": 0.716127,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 8,
+        "HourDescription": "7 am - 8 am",
+        "Value": 0.899161,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 9,
+        "HourDescription": "8 am - 9 am",
+        "Value": 1.312655,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 10,
+        "HourDescription": "9 am - 10 am",
+        "Value": null,
+        "AirQualityCategory": null,
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 11,
+        "HourDescription": "10 am - 11 am",
+        "Value": 0.354971,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 12,
+        "HourDescription": "11 am - 12 pm",
+        "Value": 0.571684,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 13,
+        "HourDescription": "12 pm - 1 pm",
+        "Value": 0.645133,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 14,
+        "HourDescription": "1 pm - 2 pm",
+        "Value": 0.608998,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 15,
+        "HourDescription": "2 pm - 3 pm",
+        "Value": 0.789184,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 16,
+        "HourDescription": "3 pm - 4 pm",
+        "Value": 1.022394,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 17,
+        "HourDescription": "4 pm - 5 pm",
+        "Value": 1.038596,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 18,
+        "HourDescription": "5 pm - 6 pm",
+        "Value": 0.971431,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 19,
+        "HourDescription": "6 pm - 7 pm",
+        "Value": 1.018564,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 20,
+        "HourDescription": "7 pm - 8 pm",
+        "Value": 0.706799,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 21,
+        "HourDescription": "8 pm - 9 pm",
+        "Value": 0.67194,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 22,
+        "HourDescription": "9 pm - 10 pm",
+        "Value": 0.576594,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 23,
+        "HourDescription": "10 pm - 11 pm",
+        "Value": 0.467893,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-06",
+        "Hour": 24,
+        "HourDescription": "11 pm - 12 am",
+        "Value": 0.367441,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 1,
+        "HourDescription": "12 am - 1 am",
+        "Value": 0.146603,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 2,
+        "HourDescription": "1 am - 2 am",
+        "Value": null,
+        "AirQualityCategory": null,
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 3,
+        "HourDescription": "2 am - 3 am",
+        "Value": 0.353878,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 4,
+        "HourDescription": "3 am - 4 am",
+        "Value": 0.443168,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 5,
+        "HourDescription": "4 am - 5 am",
+        "Value": 0.550356,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 6,
+        "HourDescription": "5 am - 6 am",
+        "Value": 1.104887,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 7,
+        "HourDescription": "6 am - 7 am",
+        "Value": 1.117316,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 8,
+        "HourDescription": "7 am - 8 am",
+        "Value": 0.850938,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 9,
+        "HourDescription": "8 am - 9 am",
+        "Value": 0.645611,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 10,
+        "HourDescription": "9 am - 10 am",
+        "Value": 0.700299,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 11,
+        "HourDescription": "10 am - 11 am",
+        "Value": 0.346818,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 12,
+        "HourDescription": "11 am - 12 pm",
+        "Value": 0.605043,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 13,
+        "HourDescription": "12 pm - 1 pm",
+        "Value": 0.819617,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 14,
+        "HourDescription": "1 pm - 2 pm",
+        "Value": 0.846961,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 15,
+        "HourDescription": "2 pm - 3 pm",
+        "Value": 0.673154,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 16,
+        "HourDescription": "3 pm - 4 pm",
+        "Value": 0.448736,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 17,
+        "HourDescription": "4 pm - 5 pm",
+        "Value": 0.637856,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 18,
+        "HourDescription": "5 pm - 6 pm",
+        "Value": 0.452912,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 19,
+        "HourDescription": "6 pm - 7 pm",
+        "Value": 0.64054,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 20,
+        "HourDescription": "7 pm - 8 pm",
+        "Value": 0.380128,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 21,
+        "HourDescription": "8 pm - 9 pm",
+        "Value": 0.642628,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 22,
+        "HourDescription": "9 pm - 10 pm",
+        "Value": 0.137912,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 23,
+        "HourDescription": "10 pm - 11 pm",
+        "Value": 0.102117,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-07",
+        "Hour": 24,
+        "HourDescription": "11 pm - 12 am",
+        "Value": 0.033509,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 1,
+        "HourDescription": "12 am - 1 am",
+        "Value": 0.445952,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 2,
+        "HourDescription": "1 am - 2 am",
+        "Value": null,
+        "AirQualityCategory": null,
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 3,
+        "HourDescription": "2 am - 3 am",
+        "Value": 0.455448,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 4,
+        "HourDescription": "3 am - 4 am",
+        "Value": 0.168499,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 5,
+        "HourDescription": "4 am - 5 am",
+        "Value": 0.057871,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 6,
+        "HourDescription": "5 am - 6 am",
+        "Value": 0.45936,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 7,
+        "HourDescription": "6 am - 7 am",
+        "Value": 0.309917,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 8,
+        "HourDescription": "7 am - 8 am",
+        "Value": 0.601781,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 9,
+        "HourDescription": "8 am - 9 am",
+        "Value": 0.605091,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 10,
+        "HourDescription": "9 am - 10 am",
+        "Value": 0.423454,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 11,
+        "HourDescription": "10 am - 11 am",
+        "Value": 0.14513,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 12,
+        "HourDescription": "11 am - 12 pm",
+        "Value": 0.002507,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 13,
+        "HourDescription": "12 pm - 1 pm",
+        "Value": 0.039918,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 14,
+        "HourDescription": "1 pm - 2 pm",
+        "Value": -0.028284,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 15,
+        "HourDescription": "2 pm - 3 pm",
+        "Value": -0.017552,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 16,
+        "HourDescription": "3 pm - 4 pm",
+        "Value": 0.087258,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 17,
+        "HourDescription": "4 pm - 5 pm",
+        "Value": 0.104509,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 18,
+        "HourDescription": "5 pm - 6 pm",
+        "Value": 0.178027,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 19,
+        "HourDescription": "6 pm - 7 pm",
+        "Value": 0.022567,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 20,
+        "HourDescription": "7 pm - 8 pm",
+        "Value": 0.002307,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 21,
+        "HourDescription": "8 pm - 9 pm",
+        "Value": 0.068703,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 22,
+        "HourDescription": "9 pm - 10 pm",
+        "Value": 0.08455,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 23,
+        "HourDescription": "10 pm - 11 pm",
+        "Value": 0.474705,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-08",
+        "Hour": 24,
+        "HourDescription": "11 pm - 12 am",
+        "Value": -0.024874,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 1,
+        "HourDescription": "12 am - 1 am",
+        "Value": -0.063889,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 2,
+        "HourDescription": "1 am - 2 am",
+        "Value": null,
+        "AirQualityCategory": null,
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 3,
+        "HourDescription": "2 am - 3 am",
+        "Value": 0.015272,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 4,
+        "HourDescription": "3 am - 4 am",
+        "Value": -0.014368,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 5,
+        "HourDescription": "4 am - 5 am",
+        "Value": 0.145184,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 6,
+        "HourDescription": "5 am - 6 am",
+        "Value": 0.523466,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 7,
+        "HourDescription": "6 am - 7 am",
+        "Value": 0.532208,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 8,
+        "HourDescription": "7 am - 8 am",
+        "Value": 0.695577,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 9,
+        "HourDescription": "8 am - 9 am",
+        "Value": 0.443791,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 10,
+        "HourDescription": "9 am - 10 am",
+        "Value": 0.339299,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 11,
+        "HourDescription": "10 am - 11 am",
+        "Value": 0.369039,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 12,
+        "HourDescription": "11 am - 12 pm",
+        "Value": 0.386622,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 13,
+        "HourDescription": "12 pm - 1 pm",
+        "Value": 0.31619,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 14,
+        "HourDescription": "1 pm - 2 pm",
+        "Value": 0.379086,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 15,
+        "HourDescription": "2 pm - 3 pm",
+        "Value": 0.253494,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 16,
+        "HourDescription": "3 pm - 4 pm",
+        "Value": 0.383005,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 17,
+        "HourDescription": "4 pm - 5 pm",
+        "Value": 0.283134,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 18,
+        "HourDescription": "5 pm - 6 pm",
+        "Value": 0.272785,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 19,
+        "HourDescription": "6 pm - 7 pm",
+        "Value": 0.334375,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 20,
+        "HourDescription": "7 pm - 8 pm",
+        "Value": 0.315185,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 21,
+        "HourDescription": "8 pm - 9 pm",
+        "Value": 0.310262,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 22,
+        "HourDescription": "9 pm - 10 pm",
+        "Value": 0.557627,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 23,
+        "HourDescription": "10 pm - 11 pm",
+        "Value": 0.513921,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-09",
+        "Hour": 24,
+        "HourDescription": "11 pm - 12 am",
+        "Value": 0.211296,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 1,
+        "HourDescription": "12 am - 1 am",
+        "Value": 0.425505,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 2,
+        "HourDescription": "1 am - 2 am",
+        "Value": null,
+        "AirQualityCategory": null,
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 3,
+        "HourDescription": "2 am - 3 am",
+        "Value": 0.284279,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 4,
+        "HourDescription": "3 am - 4 am",
+        "Value": 0.373931,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 5,
+        "HourDescription": "4 am - 5 am",
+        "Value": 0.875921,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 6,
+        "HourDescription": "5 am - 6 am",
+        "Value": 1.028857,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 7,
+        "HourDescription": "6 am - 7 am",
+        "Value": 0.580598,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 8,
+        "HourDescription": "7 am - 8 am",
+        "Value": 0.265672,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 9,
+        "HourDescription": "8 am - 9 am",
+        "Value": 0.293831,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 10,
+        "HourDescription": "9 am - 10 am",
+        "Value": 0.214627,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 11,
+        "HourDescription": "10 am - 11 am",
+        "Value": 0.219901,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 12,
+        "HourDescription": "11 am - 12 pm",
+        "Value": 0.181791,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 13,
+        "HourDescription": "12 pm - 1 pm",
+        "Value": 0.112935,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 14,
+        "HourDescription": "1 pm - 2 pm",
+        "Value": 0.08607,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 15,
+        "HourDescription": "2 pm - 3 pm",
+        "Value": 0.069353,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 16,
+        "HourDescription": "3 pm - 4 pm",
+        "Value": 0.140796,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 17,
+        "HourDescription": "4 pm - 5 pm",
+        "Value": 0.150746,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 18,
+        "HourDescription": "5 pm - 6 pm",
+        "Value": 0.18209,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 19,
+        "HourDescription": "6 pm - 7 pm",
+        "Value": 0.159702,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 20,
+        "HourDescription": "7 pm - 8 pm",
+        "Value": 0.197214,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 21,
+        "HourDescription": "8 pm - 9 pm",
+        "Value": 0.195722,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 22,
+        "HourDescription": "9 pm - 10 pm",
+        "Value": 0.091841,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 23,
+        "HourDescription": "10 pm - 11 pm",
+        "Value": 0.132537,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-10",
+        "Hour": 24,
+        "HourDescription": "11 pm - 12 am",
+        "Value": 0.066965,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 1,
+        "HourDescription": "12 am - 1 am",
+        "Value": 0.016219,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 2,
+        "HourDescription": "1 am - 2 am",
+        "Value": null,
+        "AirQualityCategory": null,
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 3,
+        "HourDescription": "2 am - 3 am",
+        "Value": 0.04442,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 4,
+        "HourDescription": "3 am - 4 am",
+        "Value": 0.159013,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 5,
+        "HourDescription": "4 am - 5 am",
+        "Value": 0.464663,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 6,
+        "HourDescription": "5 am - 6 am",
+        "Value": 0.290976,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 7,
+        "HourDescription": "6 am - 7 am",
+        "Value": 0.686064,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 8,
+        "HourDescription": "7 am - 8 am",
+        "Value": 0.529047,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 9,
+        "HourDescription": "8 am - 9 am",
+        "Value": 0.464862,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 10,
+        "HourDescription": "9 am - 10 am",
+        "Value": 0.533738,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 11,
+        "HourDescription": "10 am - 11 am",
+        "Value": 0.219804,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 12,
+        "HourDescription": "11 am - 12 pm",
+        "Value": 0.247853,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 13,
+        "HourDescription": "12 pm - 1 pm",
+        "Value": 0.542822,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 14,
+        "HourDescription": "1 pm - 2 pm",
+        "Value": 0.435216,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 15,
+        "HourDescription": "2 pm - 3 pm",
+        "Value": 0.29976,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 16,
+        "HourDescription": "3 pm - 4 pm",
+        "Value": 0.19964,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 17,
+        "HourDescription": "4 pm - 5 pm",
+        "Value": 0.232281,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 18,
+        "HourDescription": "5 pm - 6 pm",
+        "Value": 0.314932,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 19,
+        "HourDescription": "6 pm - 7 pm",
+        "Value": 0.199341,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 20,
+        "HourDescription": "7 pm - 8 pm",
+        "Value": 0.272209,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 21,
+        "HourDescription": "8 pm - 9 pm",
+        "Value": 0.217608,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 22,
+        "HourDescription": "9 pm - 10 pm",
+        "Value": 0.04422,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 23,
+        "HourDescription": "10 pm - 11 pm",
+        "Value": 0.064184,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-11",
+        "Hour": 24,
+        "HourDescription": "11 pm - 12 am",
+        "Value": 0.300758,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 1,
+        "HourDescription": "12 am - 1 am",
+        "Value": 0.109802,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 2,
+        "HourDescription": "1 am - 2 am",
+        "Value": null,
+        "AirQualityCategory": null,
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 3,
+        "HourDescription": "2 am - 3 am",
+        "Value": 0.245725,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 4,
+        "HourDescription": "3 am - 4 am",
+        "Value": 0.244628,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 5,
+        "HourDescription": "4 am - 5 am",
+        "Value": 0.590419,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 6,
+        "HourDescription": "5 am - 6 am",
+        "Value": 1.339168,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 7,
+        "HourDescription": "6 am - 7 am",
+        "Value": 1.589782,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 8,
+        "HourDescription": "7 am - 8 am",
+        "Value": 1.420179,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 9,
+        "HourDescription": "8 am - 9 am",
+        "Value": 1.401922,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 10,
+        "HourDescription": "9 am - 10 am",
+        "Value": 0.824372,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 11,
+        "HourDescription": "10 am - 11 am",
+        "Value": 1.052339,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 12,
+        "HourDescription": "11 am - 12 pm",
+        "Value": 1.889781,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 13,
+        "HourDescription": "12 pm - 1 pm",
+        "Value": 1.220446,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 14,
+        "HourDescription": "1 pm - 2 pm",
+        "Value": 0.996669,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 15,
+        "HourDescription": "2 pm - 3 pm",
+        "Value": 0.89361,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 16,
+        "HourDescription": "3 pm - 4 pm",
+        "Value": 0.821778,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 17,
+        "HourDescription": "4 pm - 5 pm",
+        "Value": 0.998964,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 18,
+        "HourDescription": "5 pm - 6 pm",
+        "Value": 0.656465,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 19,
+        "HourDescription": "6 pm - 7 pm",
+        "Value": 0.522578,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 20,
+        "HourDescription": "7 pm - 8 pm",
+        "Value": 0.46621,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 21,
+        "HourDescription": "8 pm - 9 pm",
+        "Value": 0.588624,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 22,
+        "HourDescription": "9 pm - 10 pm",
+        "Value": 1.12457,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 23,
+        "HourDescription": "10 pm - 11 pm",
+        "Value": 1.793306,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-12",
+        "Hour": 24,
+        "HourDescription": "11 pm - 12 am",
+        "Value": 0.892712,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 1,
+        "HourDescription": "12 am - 1 am",
+        "Value": 0.595308,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 2,
+        "HourDescription": "1 am - 2 am",
+        "Value": null,
+        "AirQualityCategory": null,
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 3,
+        "HourDescription": "2 am - 3 am",
+        "Value": 0.227888,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 4,
+        "HourDescription": "3 am - 4 am",
+        "Value": 0.167131,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 5,
+        "HourDescription": "4 am - 5 am",
+        "Value": 0.227888,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 6,
+        "HourDescription": "5 am - 6 am",
+        "Value": 0.37002,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 7,
+        "HourDescription": "6 am - 7 am",
+        "Value": 0.59492,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 8,
+        "HourDescription": "7 am - 8 am",
+        "Value": 0.650697,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 9,
+        "HourDescription": "8 am - 9 am",
+        "Value": 0.821514,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 10,
+        "HourDescription": "9 am - 10 am",
+        "Value": 1.288646,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 11,
+        "HourDescription": "10 am - 11 am",
+        "Value": 0.843327,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 12,
+        "HourDescription": "11 am - 12 pm",
+        "Value": 0.926594,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 13,
+        "HourDescription": "12 pm - 1 pm",
+        "Value": 0.793526,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 14,
+        "HourDescription": "1 pm - 2 pm",
+        "Value": 0.979084,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 15,
+        "HourDescription": "2 pm - 3 pm",
+        "Value": 0.874801,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 16,
+        "HourDescription": "3 pm - 4 pm",
+        "Value": 0.741534,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 17,
+        "HourDescription": "4 pm - 5 pm",
+        "Value": 0.930578,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 18,
+        "HourDescription": "5 pm - 6 pm",
+        "Value": 0.648207,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 19,
+        "HourDescription": "6 pm - 7 pm",
+        "Value": 0.525199,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 20,
+        "HourDescription": "7 pm - 8 pm",
+        "Value": 0.609064,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 21,
+        "HourDescription": "8 pm - 9 pm",
+        "Value": 0.674502,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 22,
+        "HourDescription": "9 pm - 10 pm",
+        "Value": 0.354781,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 23,
+        "HourDescription": "10 pm - 11 pm",
+        "Value": -0.084462,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-13",
+        "Hour": 24,
+        "HourDescription": "11 pm - 12 am",
+        "Value": -0.095916,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 1,
+        "HourDescription": "12 am - 1 am",
+        "Value": -0.14492,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 2,
+        "HourDescription": "1 am - 2 am",
+        "Value": null,
+        "AirQualityCategory": null,
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 3,
+        "HourDescription": "2 am - 3 am",
+        "Value": -0.067496,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 4,
+        "HourDescription": "3 am - 4 am",
+        "Value": -0.113863,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 5,
+        "HourDescription": "4 am - 5 am",
+        "Value": -0.120472,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 6,
+        "HourDescription": "5 am - 6 am",
+        "Value": 0.029542,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 7,
+        "HourDescription": "6 am - 7 am",
+        "Value": 0.171545,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 8,
+        "HourDescription": "7 am - 8 am",
+        "Value": 0.135994,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 9,
+        "HourDescription": "8 am - 9 am",
+        "Value": 0.207596,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 10,
+        "HourDescription": "9 am - 10 am",
+        "Value": 0.199986,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 11,
+        "HourDescription": "10 am - 11 am",
+        "Value": 0.28691,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 12,
+        "HourDescription": "11 am - 12 pm",
+        "Value": 0.807954,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 13,
+        "HourDescription": "12 pm - 1 pm",
+        "Value": 0.986409,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 14,
+        "HourDescription": "1 pm - 2 pm",
+        "Value": 0.47588,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 15,
+        "HourDescription": "2 pm - 3 pm",
+        "Value": 0.528254,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 16,
+        "HourDescription": "3 pm - 4 pm",
+        "Value": 0.541073,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 17,
+        "HourDescription": "4 pm - 5 pm",
+        "Value": 0.164535,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 18,
+        "HourDescription": "5 pm - 6 pm",
+        "Value": 0.093333,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 19,
+        "HourDescription": "6 pm - 7 pm",
+        "Value": 0.052575,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 20,
+        "HourDescription": "7 pm - 8 pm",
+        "Value": 0.098641,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 21,
+        "HourDescription": "8 pm - 9 pm",
+        "Value": 0.351802,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 22,
+        "HourDescription": "9 pm - 10 pm",
+        "Value": 1.416823,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 23,
+        "HourDescription": "10 pm - 11 pm",
+        "Value": 1.798068,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    },
+    {
+        "Site_Id": 39,
+        "Parameter": {
+            "ParameterCode": "NO2",
+            "ParameterDescription": "Nitrogen Dioxide",
+            "Units": "pphm",
+            "UnitsDescription": "parts per hundred million",
+            "Category": "Averages",
+            "SubCategory": "Hourly",
+            "Frequency": "Hourly average"
+        },
+        "Date": "2024-12-14",
+        "Hour": 24,
+        "HourDescription": "11 pm - 12 am",
+        "Value": 0.278097,
+        "AirQualityCategory": "GOOD",
+        "DeterminingPollutant": null
+    }
+]
