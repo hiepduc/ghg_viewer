@@ -228,7 +228,7 @@ with col2:
     df = df.sort_values("datetime")
 
     # Plotting
-    st.title("GHG Time Series Viewer")
+    st.title("GHG Analysis dashboard")
 
     if view_mode == "Single Day":
         st.subheader(f"{selected_gas} at {selected_site} on {selected_date.strftime('%Y-%m-%d')}")
@@ -247,25 +247,177 @@ with col2:
 
     st.sidebar.write(f"🔍 selected_site = {repr(selected_site)}")
 
-    if selected_site == "Stockton"  and "Wind_Speed" in df.columns and "Wind_Direction" in df.columns:
+    # --- Wind Rose ---
+    #if selected_site == "Stockton"  and "Wind_Speed" in df.columns and "Wind_Direction" in df.columns:
+    #    st.sidebar.title("Options")
+    #    if st.sidebar.checkbox("Show Wind Rose"):
+    #       st.markdown("### Wind Rose")
+    #       wind_df = df.dropna(subset=["Wind_Speed", "Wind_Direction"])
+    #       if not wind_df.empty:
+    #           fig = plt.figure(figsize=(6, 6))
+    #           ax = WindroseAxes.from_ax(fig=fig)
+    #           ax.bar(
+    #               wind_df["Wind_Direction"],
+    #               wind_df["Wind_Speed"],
+    #               normed=True,
+    #               opening=0.8,
+    #               edgecolor='white'
+    #           )
+    #           ax.set_legend()
+    #           st.pyplot(fig)
+    #    else:
+    #        st.info("Wind data available to generate wind rose. Choose opion on the left sidebar")
+
+    # --- Wind & Pollution Rose ---
+    if selected_site == "Stockton" and "Wind_Speed" in df.columns and "Wind_Direction" in df.columns:
+        st.info("Wind data available to generate wind and pollution rose. Choose options on the left sidebar")
         st.sidebar.title("Options")
-        if st.sidebar.checkbox("Show Wind Rose"):
-           st.markdown("### Wind Rose")
-           wind_df = df.dropna(subset=["Wind_Speed", "Wind_Direction"])
-           if not wind_df.empty:
-               fig = plt.figure(figsize=(6, 6))
-               ax = WindroseAxes.from_ax(fig=fig)
-               ax.bar(
-                   wind_df["Wind_Direction"],
-                   wind_df["Wind_Speed"],
-                   normed=True,
-                   opening=0.8,
-                   edgecolor='white'
-               )
-               ax.set_legend()
-               st.pyplot(fig)
-        else:
-            st.info("No wind data available to generate wind rose.")
+
+        show_windrose = st.sidebar.checkbox("Show Wind Rose")
+        show_pollution_rose = st.sidebar.checkbox("Show Pollution Rose")
+
+        # Prepare wind data
+        wind_df = df.dropna(subset=["Wind_Speed", "Wind_Direction"])
+
+        if show_windrose:
+            st.markdown("### Wind Rose")
+            if not wind_df.empty and len(wind_df["Wind_Speed"]) > 0:
+                fig = plt.figure(figsize=(6, 6))
+                ax = WindroseAxes.from_ax(fig=fig)
+                ax.bar(
+                    wind_df["Wind_Direction"],
+                    wind_df["Wind_Speed"],
+                    normed=True,
+                    opening=0.8,
+                    edgecolor='white'
+                    )
+                ax.set_legend()
+                st.pyplot(fig)
+            else:
+                st.warning("Not enough data for wind rose.")
+
+        if show_pollution_rose:
+            st.sidebar.markdown("### Pollution Rose Options")
+    
+            # 1. Pollutant selection
+            available_pollutants = [col for col in ['CH4', 'CO2', 'N2O', 'NH3', 'H2O'] if col in df.columns]
+            if not available_pollutants:
+                st.warning("No pollutants available for plotting.")
+            else:
+                selected_pollutant = st.sidebar.selectbox("Select Pollutant", available_pollutants)
+                agg_choice = st.sidebar.radio("Aggregate Data", ["Raw", "Daily Mean", "Monthly Mean"])
+
+                # 2. Date and aggregation
+                df["datetime"] = pd.to_datetime(df["datetime"])
+                if agg_choice == "Daily Mean":
+                    df = df.set_index("datetime").resample("D").mean().reset_index()
+                elif agg_choice == "Monthly Mean":
+                    df = df.set_index("datetime").resample("M").mean().reset_index()
+
+                # 3. Filter out missing data
+
+                pollution_df = df.dropna(subset=["Wind_Speed", "Wind_Direction", selected_pollutant])
+
+                if pollution_df.empty:
+                    st.warning("Not enough data for pollution rose.")
+                else:
+                    st.markdown(f"### Pollution Rose – {selected_pollutant} ({agg_choice})")
+
+                    # Use filtered_df consistently
+                    filtered_df = pollution_df.copy()
+
+                    pollutant_values = filtered_df[selected_pollutant].values
+                    min_val = np.nanmin(pollutant_values)
+                    max_val = np.nanmax(pollutant_values)
+
+                    # Compute bins safely
+                    if min_val == max_val:
+                        bins = [min_val - 0.1, min_val + 0.1]
+                    else:
+                        bins = np.linspace(min_val, max_val, 6)
+
+                    #print("### Bin edges:", bins)
+                    #print(filtered_df[selected_pollutant].describe())
+
+                    # Check bin validity
+                    if np.isnan(bins).any():
+                        st.error("Bin computation failed due to NaNs.")
+                    else:
+                        # Create new bin labels **each time**
+                        bin_labels = [
+                            f"{round(bins[i], 1)}–{round(bins[i + 1], 1)}"
+                            for i in range(len(bins) - 1)
+                        ]
+                        # Label pollutant bins
+                        filtered_df["pollutant_bin_label"] = pd.cut(
+                            filtered_df[selected_pollutant],
+                            bins=bins,
+                            labels=bin_labels,
+                            include_lowest=True,
+                            ordered=False  # Essential if there's any risk of duplicates
+                        )
+
+                        # Drop rows that failed to bin
+                        filtered_df = filtered_df.dropna(subset=["pollutant_bin_label"])
+
+                        import plotly.express as px
+
+                        # Drop rows without valid bin labels
+                        filtered_df = filtered_df.dropna(subset=["pollutant_bin_label"])
+
+                        if filtered_df.empty:
+                            st.warning("No data falls within pollutant bins.")
+                        else:
+                            # Bin wind direction to nearest 30 degrees
+                            filtered_df["Wind_Direction_Binned"] = (filtered_df["Wind_Direction"] // 30) * 30
+
+                            # Group data
+                            grouped = (
+                                filtered_df.groupby(["Wind_Direction_Binned", "pollutant_bin_label"])
+                                .size()
+                                .reset_index(name="Count")
+                            )
+
+                            # Create polar bar plot
+                            fig = px.bar_polar(
+                                grouped,
+                                r="Count",
+                                theta="Wind_Direction_Binned",
+                                color="pollutant_bin_label",
+                                color_discrete_sequence=px.colors.sequential.Plasma_r,
+                                #title=f"Pollution Rose – {selected_pollutant} ({agg_choice})",
+                                template="plotly_white",
+                                height=600
+                            )
+
+                            fig.update_layout(
+                                polar=dict(
+                                    angularaxis=dict(
+                                        direction="clockwise",
+                                        tickmode="array",
+                                        tickvals=list(range(0, 360, 30)),
+                                        rotation=90,
+                                        showline=True,
+                                        linewidth=2,
+                                        linecolor="black",
+                                        gridcolor="gray"
+                                    ),
+                                    radialaxis=dict(
+                                        showticklabels=True,
+                                        ticks="outside",
+                                        tickfont=dict(size=12),
+                                        showline=True,
+                                        linewidth=2,
+                                        linecolor="black",
+                                        gridcolor="gray",
+                                        gridwidth=1.5
+                                    )
+                                ),
+                                legend_title=selected_pollutant,
+                                template="plotly_white"
+                            )
+
+                            st.plotly_chart(fig)
 
     # Plotting setup
     fig, ax = plt.subplots(figsize=(10, 4))
@@ -370,10 +522,16 @@ with col2:
             "Frequency": ["Hourly average"]
         }
         try:
-            response = requests.post(API_URL, headers=HEADERS, json=payload, timeout=20)
-            if response.status_code == 200:
-                data = response.json()
-                return len(data) > 0
+            with st.spinner("Please wait, fetching sites... Once finished. site is available to select"):
+                # Simulate a slow API call
+                #time.sleep(5)  # Replace this with your real API request
+
+                response = requests.post(API_URL, headers=HEADERS, json=payload, timeout=20)
+                if response.status_code == 200:
+                    data = response.json()
+                    return len(data) > 0
+            st.success("Data loaded successfully!")
+
         except Exception as e:
             st.warning(f"API error for site ID {site_id}: {e}")
         return False
@@ -446,7 +604,7 @@ with col2:
     try:
         with st.spinner("Please wait, fetching data..."):
             # Simulate a slow API call
-            time.sleep(5)  # Replace this with your real API request
+            #time.sleep(5)  # Replace this with your real API request
 
             response = requests.post(API_URL, headers=HEADERS, json=payload, timeout=30)
             response.raise_for_status()
